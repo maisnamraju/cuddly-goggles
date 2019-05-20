@@ -1,0 +1,43 @@
+{
+    "name": "cuddly-goggles",
+    "version": "1.0.0",
+    "description": "APIs to start a SAAS project",
+    "main": "index.js",
+    "directories": {
+        "test": "tests"
+    },
+    "scripts": {
+        "test": "npm run test",
+        "dev": "nodemon index"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/maisnamraju/cuddly-goggles.git"
+    },
+    "keywords": [
+        "SAAS",
+        "starter",
+        "kit",
+        "nodejs",
+        "SAAS",
+        "mongodb",
+        "stripe"
+    ],
+    "author": "maisnamraju@gmail.com <maisnamraju@gmail.com>",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/maisnamraju/cuddly-goggles/issues"
+    },
+    "homepage": "https://github.com/maisnamraju/cuddly-goggles#readme",
+    "dependencies": {
+        "fastify": "^2.3.0",
+        "handlebars": "^4.1.2",
+        "jsonwebtoken": "^8.5.1",
+        "mongodb": "^3.2.4",
+        "nodemailer": "^6.1.1"
+    },
+    "devDependencies": {
+        "dotenv": "^8.0.0",
+        "nodemon": "^1.19.0"
+    }
+}
