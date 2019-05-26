@@ -1,0 +1,11 @@
+type User {
+  id: ID! @id
+  name: String
+  email: String! @unique
+  active: Boolean!
+  password: String!
+  preferences: Json
+  subscription: SubscriptionDetail @relation(link: INLINE)
+  createdAt: DateTime! @createdAt
+  updatedAt: DateTime! @updatedAt
+}

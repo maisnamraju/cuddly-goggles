@@ -1,0 +1,8 @@
+type Plan {
+    id: ID! @id
+    name: String!
+    description: String
+    features: Json
+    createdAt: DateTime! @createdAt
+    updatedAt: DateTime! @updatedAt
+}

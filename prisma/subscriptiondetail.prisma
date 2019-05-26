@@ -1,0 +1,10 @@
+type SubscriptionDetail {
+    id: ID! @id
+    plan: Plan! @relation(link: INLINE)
+    details: Json!
+    history: Json
+    stripeCustomerId: String @unique
+    stripeSubscriptionId: String @unique
+    createdAt: DateTime! @createdAt
+    updatedAt: DateTime! @updatedAt
+}

@@ -1,0 +1,9 @@
+type Team {
+    id: ID! @id
+    name: String!
+    description: String
+    members: Member @embedded
+    owner: User!
+    createdAt: DateTime! @createdAt
+    updatedAt: DateTime! @updatedAt
+}

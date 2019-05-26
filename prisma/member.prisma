@@ -1,0 +1,10 @@
+type Member @embedded {
+    id: ID! @id
+    user: User!
+    role: String!
+    permissions: 
+}
+
+type Permission {
+
+}
