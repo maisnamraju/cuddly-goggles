@@ -31,7 +31,7 @@
     },
     "homepage": "https://github.com/maisnamraju/cuddly-goggles#readme",
     "dependencies": {
-        "fastify": "^2.3.0",
+        "fastify": "^2.15.1",
         "handlebars": "^4.1.2",
         "jsonwebtoken": "^8.5.1",
         "mongodb": "^3.2.4",
